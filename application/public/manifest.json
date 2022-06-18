@@ -1,11 +1,16 @@
 {
-	"short_name": "www2.tcc.com",
+	"short_name": "The Coffee Community",
 	"name": "The Coffee Community official website",
 	"description": "Website meant for coffee lovers, willing to learn about their favorite coffee specie, or in the adventure of new recipes",
 	"icons": [
 		{
-			"src": "./icons/coffee1.ico",
-			"sizes": "64x64 32x32 24x24 16x16",
+			"src": "favicon.ico",
+			"sizes": "64x64",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "./icons/coffee2(150).ico",
+			"sizes": "150x150",
 			"type": "image/x-icon"
 		}
 	],
