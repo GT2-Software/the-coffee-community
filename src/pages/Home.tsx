@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Home() {
 	return (
 		<main className="home-page">
@@ -54,7 +52,7 @@ function Home() {
 					</p>
 				</div>
 				<div className="home-banner">
-					<img src={'assets/svgs/coffee3.svg'} alt="Coffee grain image" className="home home-images" />
+					<img src={'assets/svgs/coffee3.svg'} alt="Coffee grain" className="home home-images" />
 				</div>
 			</section>
 		</main>
