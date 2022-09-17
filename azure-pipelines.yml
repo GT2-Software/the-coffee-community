@@ -1,9 +1,0 @@
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Individual subscription (062d5ef5-5858-4989-bc34-ae90eceac1dd)'
-    appType: 'webAppLinux'
-    WebAppName: 'thecoffeesite'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    RuntimeStack: 'NODE|16-lts'
-    StartupCommand: 'npm run start'
